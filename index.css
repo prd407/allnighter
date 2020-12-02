@@ -1,0 +1,12 @@
+body {
+	background: url(img/b1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Squada One', cursive;
+}
+
+h1 { 
+	width: 74vmax;
+	margin: 9vmax auto; 
+	font-size: 8vmax;
+}

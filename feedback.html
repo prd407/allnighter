@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="feedback.css">
+<link rel="stylesheet" type="text/css" href="nav.css">
+<script type="text/javascript" src="nav.js"></script>
+</head>
+<body>
+<nav class="navigation-bar">
+    <a href="index.html"><img class="logo" src="img/logo.png"></a>
+    <a class="link" href="feedback.html">Feedback</a>
+    <a class="link" href="services.html">Services</a>
+    <a class="link" href="contri.php">Contribute</a>
+    <a class="link" onclick="on()" href="#">Courses</a>
+</nav>
+<div id="overlay" onclick="off()">
+	<table>
+		<tr>
+			<td><a class="link" href="cse.html">B.Tech cse</a></td>
+			<td><a class="link" href="ece.html">B.Tech ece</a></td>
+			<td><a class="link" href="bio.html">B.Tech biotech</a></td>
+			<td><a class="link" href="chem.html">B.Tech chem</a></td>
+		</tr>
+	</table>
+</div>
+
+<p>
+    Hope you liked our website, Please fill the feedback form.
+    We are looking forward to your comments.
+</p>
+
+	<form id="fform" name="fform" method="post" action="feedback.php" onsubmit="return validate()">
+	<input type="text" name="name" placeholder="Name" ><br>
+	<input type="email" name="email" placeholder="Email" ><br>
+	<textarea name="feedback" placeholder="Feedback" ></textarea> 
+	<button type="submit" value="Submit">Submit</button>
+	<button type="reset" value="Clear">Clear</button>
+	</form>
+
+<script type="text/javascript">
+	function validate()                                    
+{ 
+    var name = document.forms["fform"]["name"];               
+    var email = document.forms["fform"]["email"];      
+    var feedback = document.forms["fform"]["feedback"];  
+   
+    if (name.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        name.focus(); 
+        return false; 
+    } 
+     
+        if (feedback.value == "")                                  
+    { 
+        window.alert("Please enter your feedback."); 
+        feedback.focus(); 
+        return false; 
+    }
+       
+    if (email.value == "")                                   
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf("@", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf(".", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+    return true; 
+  }
+</script>
+
+<a href="https://www.linkedin.com/in/thatbluekid/">
+	<h3 style="font-family: 'Squada One', cursive; color: black;
+	 position: absolute; bottom: 0; margin: auto; width: 99vmax;
+	  text-align: center;">© Pradeep 2019</h3>
+</a>
+</body>
+</html>
+

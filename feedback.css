@@ -1,0 +1,49 @@
+body {
+	background: url(img/b2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+p {
+	float: left;
+	width: 34vmax;
+	margin: 2vmax;
+	font-size: 3vmax;
+	line-height: 50px;
+    font-family: 'Squada One', cursive;
+	animation-name: ani;
+	animation-duration: 4s;
+}
+
+@keyframes ani {
+  from {line-height: 300px;}
+  to {line-height: 50px;}
+}
+
+#fform {
+	float: right;
+	width: 31vmax;
+	margin: 2vmax;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+button {
+	float: right;
+}
+
+input, textarea,button {
+	border: 2px solid black;
+	width: 30vmax;
+	padding: .5vmax 1vmax;
+	margin: 1vmax auto;
+	border-radius: 1%;
+	background-color: transparent; 
+	font-size: 2vmax;
+    font-family: 'Squada One', cursive;
+
+}
+

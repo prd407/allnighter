@@ -1,0 +1,27 @@
+body{
+	background: url(img/cse.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.container a{
+	text-decoration: none;
+	color: black;
+	line-height: 8vmax;
+}
+
+td{
+	padding: .1vmax;
+}
+td:hover {
+	transform: scale(1.2);
+}
+.container table {
+	text-align: center;
+	width: 80%;
+	font-size: 	4vmax;
+	color: black;	
+    font-family: 'Squada One', cursive;
+	margin: 4vmax auto;
+}

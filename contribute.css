@@ -1,0 +1,55 @@
+body {
+	background: url(img/contri.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#cform {
+	margin: 0 auto;
+	width: 96vmax;
+	margin: 2vmax;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+button {
+	margin: 1vmax 3vmax;	
+}
+
+input {
+	margin: 0 auto;	
+}
+
+input,button {
+	border: 2px solid black;
+	width: 21vmax;
+	padding: .5vmax 1.2vmax;
+	border-radius: 1%;
+	background-color: transparent; 
+	font-size: 2vmax;
+    font-family: 'Squada One', cursive;
+}
+
+span {
+	font-size: 2vmax;
+	margin: 0 4vmax;
+    font-family: 'Squada One', cursive;	
+}
+
+section {
+	font-size: 2.2vmax;
+	margin: 0 auto;
+	text-align: center;
+    font-family: 'Squada One', cursive;	
+}
+
+#out {
+	border: 2px solid black;
+	width: 90%;
+	font-size: 2vmax;
+	font-family: 'Squada One', cursive;	
+	text-align: center;
+}

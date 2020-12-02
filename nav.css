@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
+
+
+.navigation-bar {
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 20vmax;
+    margin: 0 4vmax 0;
+}
+.navigation-bar a {
+    display: inline-block;
+    float: right;
+    padding: .2vmax; 
+
+}
+
+.link {
+	margin: 1vmax 1.8vmax;
+	text-decoration: none;
+	font-size: 2vmax;
+	color: black;	
+  font-family: 'Squada One', cursive;
+
+}
+
+.link:hover {
+	transform: scale(1.2);
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+
+
+table {
+
+	text-align: center;
+	width: 50%;
+	margin: 4vmax auto;
+	font-size: 2vmax;
+}
