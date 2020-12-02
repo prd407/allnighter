@@ -1,1 +1,1 @@
-allnighter simple notes website with some php
+allnighter, a simple notes website with some php
